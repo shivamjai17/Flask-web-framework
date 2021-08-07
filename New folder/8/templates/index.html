@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web scrapping tool of snapdeal for sports</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='./sun.css')}}">
+</head>
+
+<body>
+
+    <header>
+        <h1>Web scrapping tool of snapdeal for sports </h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Name</h2>
+            <form action="/submit" method="POST">
+                <!-- <label for"Page">Page:</label><br> -->
+                <!-- <div class="input-container ic1">
+                    <input type="text" id='page' class="input" name='Page' value="0">
+                    <div class="cut"></div>
+                    <label for"Page" class="placeholder">Pages</label>
+                </div>
+                </div>
+                <!-- <label for"Category">Category:</label> -->
+                <!-- <div class="input-container ic2">
+                    <input type="text" id='category' name='Category' value="enter category">
+                    <div class="cut"></div>
+                    <label for"category" class="placeholder">Category</label>
+                </div>
+                
+                <input type="submit" value="submit"> -->
+                <!--  -->
+                <!-- <div class="input-container ic2"> --> -->
+                <!-- <input id="firstname" class="input" type="text" placeholder=" " />
+                    <div class="cut"></div>
+                    <label for="firstname" class="placeholder">First name</label>
+                </div> -->
+                <div class="form">
+                    <div class="input-container ic1">
+                        <input id="category" class="input" type="text" name='Category' placeholder=" " >
+                        <div class="cut">
+
+                        </div>
+                        <label for"category" class="placeholder">category</label>
+                    </div>
+                    <div class="input-container ic2">
+                        <input id="page" class="input" type="text" name='Page' placeholder=" " />
+                        <div class="cut"></div>
+                        <label for"page" class="placeholder">Page</label>
+                    </div>
+                    <!-- <div class="input-container ic2">
+                        <input id="email" class="input" type="text" placeholder=" " />
+                        <div class="cut cut-short"></div>
+                        <label for="email" class="placeholder">Email</>
+                    </div> -->
+                    <button type="text" class="submit">submit</button>
+                </div>
+            </form>
+            <br>
+            <h2>Category
+            </h2>
+
+            <br>
+            <h2>Pages</h2>
+
+
+
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>

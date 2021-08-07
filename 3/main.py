@@ -18,7 +18,8 @@ def success(score):
 @app.route('/submit',methods=['POST','GET'])
 def submit():
     total_score=0
-    science=float(request.form['Science'])
+
+    science=str(request.form['Science'])
     maths=float(request.form['maths'])
     C=float(request.form['C'])
     python=float(request.form['Python'])
@@ -29,4 +30,4 @@ def submit():
 
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run( )
